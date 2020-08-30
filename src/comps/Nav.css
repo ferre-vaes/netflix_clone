@@ -1,0 +1,68 @@
+.navTop {
+  background: linear-gradient(to bottom,rgba(0,0,0,.7) 10%,rgba(0,0,0,0));
+  transition: background 700ms linear;
+}
+
+.navDef {
+  background-color: #000000;
+  transition: background-color 300ms linear;
+}
+
+.nav {
+  z-index: 100;
+  display: flex;
+  position: fixed;
+  top: 0;
+  width: 100vw;
+}
+
+.nav img {
+  width: 130px;
+  margin: 0.8em 1.8em;
+}
+
+.nav__header {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav__headerBackground {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: black;
+  opacity: 0.3;
+}
+
+.nav__headerLeft {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.nav__headerLeft > a {
+  margin: 0 10px;
+  text-decoration: none;
+}
+
+.nav__headerLeft > a  span {
+  color: #E5E5E5;
+  font-size: 1.0em;
+}
+
+.nav__headerLeft > a:hover, a:hover span {
+  color: #b3b3b3;
+  font-size: 1.0em;
+  transition: color 200ms linear;
+}
+
+.nav__headerRight {
+  color: white;
+  display: flex;
+}
+
+.nav__headerRight > * {
+  margin: 0 10px;
+}
