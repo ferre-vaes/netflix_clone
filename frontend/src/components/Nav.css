@@ -66,3 +66,8 @@
 .nav__headerRight > * {
   margin: 0 10px;
 }
+
+.nav__headerRight > span:hover, svg:hover {
+  color: #b3b3b3;
+  cursor: pointer;
+}
